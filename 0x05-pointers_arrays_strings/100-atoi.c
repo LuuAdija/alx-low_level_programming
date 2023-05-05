@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * Return the int converted from the string
+ * _atoi - converts a string to an integer
+ * @s: string to be converted
+ *
+ * Return: the int converted from the string
  */
 int _atoi(char *s)
 {
@@ -32,7 +35,8 @@ int _atoi(char *s)
 			f = 0;
 		}
 		i++;
-	}if (f == 0)
+	}
+	if (f == 0)
 		return (0);
 
 		return (n);
